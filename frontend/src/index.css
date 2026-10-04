@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* @theme{ */
+    /* --color-brand: #2A2BD6;       page background (light) */
+  /* --color-brand-deep: #1F3257;  page background (dark) */
+  /* --color-accent: #FFD23F;      yellow highlight */
+  /* --color-ink: #12123A;  text on the white card */
+/* } */
+
+@theme {
+  --color-brand: #1F3257; /* page background (light) */
+  --color-brand-deep: #131F3B; /* page background (dark) */
+  --color-steel: #4B6C96;
+  --color-mist: #A9B8D3;
+  --color-sky: #B0CDE8;
+  --color-accent: #FFD6CC; /* highlight */
+  --color-ink: #1F3257;
+}
+
+body{
+    @apply bg-brand dark:bg-brand-deep;
+}
