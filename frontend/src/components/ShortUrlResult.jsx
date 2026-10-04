@@ -62,7 +62,7 @@ function ShortUrlResult(props) {
 
         <div className="">
           <small className="block mb-2 mt-2 text-mist">Expires {date}</small>
-          <small className=" mb-2 mt-2 text-mist truncate">
+          <small className="block mb-2 mt-2 text-mist truncate">
             {props.originalUrl}
           </small>
         </div>
